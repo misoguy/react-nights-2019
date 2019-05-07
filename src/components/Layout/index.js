@@ -10,7 +10,7 @@ const Layout = ({ isAuthenticated, children, dataTestId }) => (
     <Header>
       <HeaderSection>
         <HeaderLink to={routes.PRODUCT_LIST}>All Products</HeaderLink>
-        <h1>Hello World from CI/CD</h1>
+        <h1>Hello World from CI/CD and development branch</h1>
       </HeaderSection>
       <HeaderSection>
         <HeaderLink to={routes.CART}>My Cart</HeaderLink>|
