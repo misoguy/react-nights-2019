@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { connect } from 'react-redux'
 
 import * as routes from '../../routes'
+import config from '../../config'
 
 import { Wrapper, Header, HeaderSection, HeaderLink } from './styled'
 
@@ -11,6 +12,7 @@ const Layout = ({ isAuthenticated, children, dataTestId }) => (
       <HeaderSection>
         <HeaderLink to={routes.PRODUCT_LIST}>All Products</HeaderLink>
         <h1>Hello World from CI/CD and development branch</h1>
+        <h2>{config.apiUrl}</h2>
       </HeaderSection>
       <HeaderSection>
         <HeaderLink to={routes.CART}>My Cart</HeaderLink>|
